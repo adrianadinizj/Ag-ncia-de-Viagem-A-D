@@ -1,0 +1,166 @@
+/*estilizando index.html Home*/
+body {
+    margin: 0;
+    background-color: rgb(151, 189, 247);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+header {
+    background: url("arraiol.jpg");
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-size: cover;
+}
+/*header{
+    display: flex;
+}*/
+
+.navbar ul {
+    list-style: none;
+    float: right;
+    display: flex;
+        /*gap: 20px;*/
+
+}
+
+.navbar a{
+    color:rgb(199, 28, 28);
+    font-size: 20px;
+    /*cursor: pointer;
+    opacity: 0.8;*/
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+
+    
+}
+
+a:hover{
+    /*opacity: 2;*/
+    color: black;
+
+}
+
+.logo {
+width: 100px;
+height: 100px;
+padding: 10px;
+border: 5px solid red;
+border-radius: 50%;
+
+}
+
+
+/*#imagem_fundo {
+    background: url("arraiol.jpg");
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-size: cover;
+}*/
+
+#titulo {
+    color:blue;
+    padding: 10%;
+    font-size:xx-large;
+}
+section {
+    color: blue;
+    text-align: center;
+    font-size: medium;
+    
+}
+
+.coluna{
+    float: left;
+    padding: 18px;
+
+
+}
+
+footer {
+    color: blue;
+    text-align: center;
+}
+
+/*estilizar a resort*/
+#imagem_fundo2 {
+    background: url("resort_1.jpg");
+    height: 800px;
+    text-align: center;
+    background-size: cover;
+}
+
+/*estilizando o contato*/
+.formulario {
+    
+    min-width: 100vh;
+    display: grid;
+    place-items:center;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+form {
+    width: 100%;
+    max-width: 20rem;
+    }
+
+label,
+input,
+textarea,
+button {
+    display: block;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+}
+input,
+textarea {
+    margin-bottom: 1rem;
+    color: white;
+    background: #1d90f5;
+    border: 0.125rem;
+    transition: border-color 0.3s;
+    box-shadow: 0.3s;
+
+}
+
+input :hover,
+input :focus
+textarea :hover,
+textarea :focus {
+    outline: none;
+    border-color: #1d90f5;
+    box-shadow: 0 0 0 0.325rem #26344a;
+}
+label {
+    margin-bottom: 0.5rem;
+    color: aliceblue;
+}
+
+textarea {
+    min-height: 12.5rem;
+    resize: vertical;
+}
+button {
+    border: none;
+    border-radius: 99px;
+    color: white;
+    background: #1d90f5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button :hover,
+button :focus {
+    outline: none;
+    background: #1c70d3;
+    
+}
