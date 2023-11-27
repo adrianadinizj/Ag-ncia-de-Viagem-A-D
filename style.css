@@ -6,65 +6,63 @@ body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Flex', sans-serif;
 }
-header {
-    background: url("arraiol.jpg");
-    width: 100%;
-    height: 600px;
-    text-align: center;
+.headerhome {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(4, 1fr); /* Alter para ter x linhas */
+    background-image: url(noronha.jpg);
     background-size: cover;
-}
-/*header{
-    display: flex;
-}*/
+    color: #fff;
+    padding: 10px;
+    align-items:center;
+    height: 600px;
+        }
 
-.navbar ul {
-    list-style: none;
-    float: right;
-    display: flex;
-        /*gap: 20px;*/
+    .logo {
+        grid-column: 1 / span 1;
+        grid-row: span 1; /* Ajustado para ocupar x linhas */
 
-}
-
-.navbar a{
-    color:rgb(199, 28, 28);
-    font-size: 20px;
-    /*cursor: pointer;
-    opacity: 0.8;*/
-    text-decoration: none;
-    padding: 10px 20px 10px 20px;
-
+    }
     
-}
+    .menu {
+        grid-column: 2 / span 1;
+        grid-row: span 1; /* Ajustado para ocupar x linhas */
+        text-align: right;
+        margin-right: 20px;
+    }
+    
+    .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .menu li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    #titulo {
+        grid-column: 1 / span 2;
+        grid-row: span 2; /* Ajustado para ocupar x linha */
+        text-align: center;
+        margin: 20px 0;
+        }
 
-a:hover{
-    /*opacity: 2;*/
-    color: black;
-
-}
-
-.logo {
-width: 100px;
-height: 100px;
-padding: 10px;
-border: 5px solid red;
-border-radius: 50%;
-
-}
+    .logo {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        border-radius: 50%;
+    }
 
 
-/*#imagem_fundo {
-    background: url("arraiol.jpg");
-    width: 100%;
-    height: 600px;
-    text-align: center;
-    background-size: cover;
-}*/
-
-#titulo {
-    color:blue;
-    padding: 10%;
-    font-size:xx-large;
-}
 section {
     color: blue;
     text-align: center;
@@ -82,15 +80,38 @@ section {
 footer {
     color: blue;
     text-align: center;
+    font-size: 15px;
+
 }
 
-/*estilizar a resort*/
-#imagem_fundo2 {
-    background: url("resort_1.jpg");
-    height: 800px;
-    text-align: center;
+/*estilizando o cruzeiro*/
+.headercruzeiro {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(4, 1fr); /* Alter para ter x linhas */
+    background-image: url(img/cruzeiro1.jpg);
     background-size: cover;
-}
+    color: #fff;
+    padding: 10px;
+    align-items:center;
+    height: 600px;
+    color: #072658;
+        }
+
+/*estilizar a resort*/
+
+.headerresort {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(4, 1fr); /* Alter para ter x linhas */
+    background-image: url(resort_1.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 10px;
+    align-items:center;
+    height: 600px;
+        }
+
 
 /*estilizando o contato*/
 .formulario {
