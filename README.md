@@ -2,9 +2,11 @@
 Projeto final do curso Descodificada Trilha -1 -2023
 Os requisitos a serem incluídos são:
 
-Logotipo
-Menu
-Título destacado sobre o assunto do site com imagem do fundo
+Logotipo,
+
+Menu,
+
+Título destacado sobre o assunto do site com imagem do fundo,
 Trecho de texto com plano de fundo colorido
 Botão com link interno ou externo
 Imagens com descrições
